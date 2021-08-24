@@ -1,7 +1,7 @@
 const fs = require('fs')
 const path = require('path')
 const express = require('express')
-const { createServer, loadEnv, HttpProxy } = require('vite')
+const { createServer, loadEnv } = require('vite')
 const serveStatic = require('serve-static')
 const cookieParser = require('cookie-parser')
 const { createProxyMiddleware } = require('http-proxy-middleware')
