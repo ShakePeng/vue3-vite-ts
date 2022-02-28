@@ -15,7 +15,7 @@ export default ({ command, mode }) => {
                 targets: ['defaults', 'not IE 11']
             })
         ],
-        base: env.VITE_BASE_URL,
+        base: '/vue3-vite-ts/',
         resolve: {
             alias: {
                 '@': resolve('src')

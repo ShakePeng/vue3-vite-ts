@@ -1,13 +1,16 @@
 <template>
-    <router-view></router-view>
+    <Father></Father>
 </template>
 
 <script lang="ts">
+import Father from '@/components/Child.vue'
 import { defineComponent } from 'vue'
 export default defineComponent({
     name: 'App',
-    setup() {
-    }
+    components: {
+        Father,
+    },
+    setup() {},
 })
 </script>
 
